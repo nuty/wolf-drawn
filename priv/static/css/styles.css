@@ -1,0 +1,94 @@
+body {
+  /*padding-top: 51px;*/
+  color:#777;
+}
+
+.text-center {
+  padding-top: 20px;
+  border-color: #000;
+}
+
+#logo {
+  margin: -10px 22px -10px 26px;
+  height:60px; 
+  width:175px ;
+  font-size:100px;
+}
+
+
+/*
+.navbar{
+  background-color: #ccc;
+  min-height: 70px;
+  margin-bottom: 10px;
+}
+*/
+
+.navbar-title{
+    font-size: 25px;
+    font-weight:bold;
+}
+
+.well {
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1) inset;
+    margin-top: 30px;
+}
+
+.well-font{
+
+  font-size: 15px;
+}
+
+.well-top{
+  margin-top: 5px;
+}
+
+
+.nav li{
+  font-size: 18px;
+  font-weight:bold;
+}
+
+
+.nav li a{
+  color:#777;
+}
+/*#sidebar .active a{
+    text-decoration: none;
+background-color: #eee;
+}*/
+#sidebar [class^="icon-"],#sidebar [class*=" icon-"]{
+    display: none;
+}
+#sidebar .active [class^="icon-"],#sidebar .active [class*=" icon-"]{
+    display: inline-block;
+}
+#sidebar .active a,#sidebar a:hover{color: #000}
+#sidebar a:hover [class^="icon-"],#sidebar a:hover [class*=" icon-"]{
+    display: inline-block;
+}
+/*#sidebar {
+  height: 100%;
+  padding-right: 0;
+  padding-top: 30px;
+   margin-left: 30px;
+
+}*/
+/*#sidebar .nav {
+  width: 90%;
+}*/
+/*#sidebar li {
+  border:0 #f2f2f2 solid;
+  border-bottom-width:1px;
+}*/
+
+h3 [class^="icon-"],h3 [class*=" icon-"]{
+    margin: 5px;
+}
+@media (min-width: 768px){
+    #navbar-collapse-1 {
+display: none !important
+
+}
+}

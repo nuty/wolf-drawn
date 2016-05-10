@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+    <title>{% block title %}Wolf Drawn{% endblock %}</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="static/css/bootstrap.min.css" rel="stylesheet">
+		<link href="static/css/styles.css" rel="stylesheet" />
+        <link href="static/css/glyphicons.css" rel="stylesheet" />
+	</head>
+	<body data-spy="scroll"  data-target="#sidebar">
+<div class="page-container">
+  
+	<!-- top navbar -->
+    <div class="navbar navbar-default navbar-static-top"  role="navigation">
+      <div class="container-fluid">
+    	<div class="navbar-header">
+      </button>
+           <a class="navbar-brand navbar-title" href="/">Wolf drawn</a>
+    	</div>
+       </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row row-offcanvas row-offcanvas-left">
+        <!-- sidebar -->
+        {% block sidebar %}
+        {% include 'lib/tag_html/left.html' %}
+        {% endblock %}
+        <!-- main area -->
+        {% block main %}
+        {% endblock %}
+    </div><!--/.row-->
+  </div><!--/.container-->
+</div><!--/.page-container-->
+    <script src="static/js/jquery.min.js"></script>
+	  <script src="static/js/bootstrap.min.js"></script>
+	</body>
+</html>
